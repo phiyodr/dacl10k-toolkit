@@ -2,7 +2,7 @@
 
 <!-- [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/dacl_ai) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://dacl.ai/) -->
 
-**[Twitter](https://twitter.com/dacl_ai) | [WACV](https://wacv2024.thecvf.com/workshops/) | [arXiv](https://arxiv.org/abs/2309.00460) | [eval.ai](https://eval.ai) | [dacl.ai](https://dacl.ai/workshop.html)**
+**[Twitter](https://twitter.com/dacl_ai) | [WACV](https://wacv2024.thecvf.com/workshops/) | [arXiv](https://arxiv.org/abs/2309.00460) | [eval.ai](https://eval.ai/web/challenges/challenge-page/2130/overview) | [dacl.ai Workshop Page](https://dacl.ai/workshop.html)**
 
 :information_source: This module should act as an entry point for simple data usage for the dacl10k dataset.
 
@@ -32,12 +32,12 @@ python -m pip install git+https://github.com/phiyodr/dacl10k-toolkit
 
 ### Download
 
-| Data File                      | sha256sum                        | Download    | 
+| Data File                      | Download                        | sha256sum  | 
 |--------------------------------|----------------------------------|-------------|
-| `dacl10k_v2_devphase.zip`      | dcbcd5fb82699076a2c7f3a72492a9ef798870e0ca1f0c9399360f273ea95260 | [[GigaMove]](https://gigamove.rwth-aachen.de/en/download/ae8278474b389aa9cc0ab6c406b7a466)¹ [[AWS]](https://dacl10k.s3.eu-central-1.amazonaws.com/dacl10k-challenge/dacl10k_v2_devphase.zip) |
-| `dacl10k_v2_testchallenge.zip` | | [Challenge phase starts at 19 October 2023] |              
+| `dacl10k_v2_devphase.zip`      | [[GigaMove]](https://gigamove.rwth-aachen.de/en/download/ae8278474b389aa9cc0ab6c406b7a466)¹ [[AWS]](https://dacl10k.s3.eu-central-1.amazonaws.com/dacl10k-challenge/dacl10k_v2_devphase.zip) | dcbcd5fb82699076a2c7f3a72492a9ef798870e0ca1f0c9399360f273ea95260 |
+| `dacl10k_v2_testchallenge.zip` | [Challenge phase starts at 19 October 2023] |    |          
 
-¹ Hosted at [RWTH Aachen University](gigamove.rwth-aachen.de/).
+¹ Hosted at [RWTH Aachen University](https://gigamove.rwth-aachen.de/).
 
 ### Folder structure
 
