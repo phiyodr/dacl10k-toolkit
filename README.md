@@ -2,7 +2,7 @@
 
 <!-- [![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/dacl_ai) [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://dacl.ai/) -->
 
-**[Twitter](https://twitter.com/dacl_ai) | [WACV](https://wacv2024.thecvf.com/workshops/) | [arXiv](https://arxiv.org/abs/2309.00460) | [Explore the Dataset](https://try.fiftyone.ai/datasets/dacl10k/samples) | [eval.ai](https://eval.ai/web/challenges/challenge-page/2130/overview) | [dacl.ai Workshop Page](https://dacl.ai/workshop.html)**
+**[Twitter](https://twitter.com/dacl_ai) | [WACV](https://wacv2024.thecvf.com/workshops/) | [arXiv](https://arxiv.org/abs/2309.00460) | [Explore the Dataset](https://try.fiftyone.ai/datasets/dacl10k/samples) | [Hugging Face Spaces](https://huggingface.co/spaces/phiyodr/dacl-challenge) | [eval.ai](https://eval.ai/web/challenges/challenge-page/2130/overview) | [dacl.ai Workshop Page](https://dacl.ai/workshop.html)**
 
 :information_source: This module should act as an entry point for simple data usage for the dacl10k dataset.
 
