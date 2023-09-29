@@ -1,11 +1,12 @@
 tqdm
-PIL
+Pillow
 torch
 torchvision
 numpy
 pandas
-skimage
+scikit-image
 shapely
 joblib
-contextlib
+contextlib2
 pathlib
+psutil
