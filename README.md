@@ -182,9 +182,9 @@ path_to_data = "my/path/to/data"
 dataset = Dacl10kDataset(split, path_to_data, resize_mask=(512, 512), resize_img=(512, 512), normalize_img=True)
 
 dataset.run_prefetching(n_jobs=10)
-#> Start prefetching
+#> Prefetching started
 #> Prefetchting: 100%|████████████████████████| 975/975 [04:49<00:00,  3.36it/s]
-#> Prefetched data stored in `self.prefetched`.
+#> Prefeching done. Data stored in `self.prefetched_data`.
 
 len(dataset.prefetched_data), type(dataset.prefetched_data)
 #> (975, dict)

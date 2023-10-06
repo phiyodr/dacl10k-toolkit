@@ -98,10 +98,10 @@ class Dacl10kDataset(Dataset):
             # resize
             if self.resize_img:
                 img = resize(img, self.resize_img)  
-                img = np.array(img, dtype=np.uint8)  
+                img = np.array(img* 255, dtype=np.uint8)  
             if self.resize_mask: 
                 mask = resize(mask, self.resize_mask)
-                mask = np.array(mask, dtype=np.uint8)
+                mask = np.array(mask * 255, dtype=np.uint8)
             return {image_name: {"image": img, "mask": mask}}
  
         with tqdm_joblib(tqdm(desc="Prefetching", total=self.n_samples)) as progress_bar:
@@ -111,7 +111,7 @@ class Dacl10kDataset(Dataset):
         for data in results: 
            result_dict.update(data)        
         self.prefetched_data = result_dict
-        print("Prefeched data stored in `self.prefetched`.")
+        print("Prefeching done. Data stored in `self.prefetched_data`.")
 
     def save_prefetched_data(self, base_path, filename=None):
         print("Start saving prefeched data.")
@@ -236,7 +236,7 @@ class Dacl10kDataset(Dataset):
             # Append current data to df
             data_df = pd.DataFrame([data])
             df = pd.concat([df, data_df], ignore_index=True)
-
+        print("DataFrame is stored in `self.df`.")
         return df
 
     @staticmethod

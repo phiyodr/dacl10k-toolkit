@@ -11,7 +11,7 @@ with open("requirements.txt") as file:
     
 setuptools.setup(
     name="dacl10k",
-    version="0.2",
+    version="0.3",
     author="Philipp J. Roesch",
     author_email="phiyodr@gmail.com",
     description="dacl10k-toolkit for dacl10k Challenge at WACV2024",
