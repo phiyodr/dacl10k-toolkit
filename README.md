@@ -40,8 +40,8 @@ python -m pip install git+https://github.com/phiyodr/dacl10k-toolkit
 
 | Data File                      | Download                        | sha256sum  | 
 |--------------------------------|----------------------------------|-------------|
-| `dacl10k_v2_devphase.zip`      | [[GigaMove]](https://gigamove.rwth-aachen.de/en/download/ae8278474b389aa9cc0ab6c406b7a466)¹ [[AWS]](https://dacl10k.s3.eu-central-1.amazonaws.com/dacl10k-challenge/dacl10k_v2_devphase.zip) | dcbcd5fb82699076a2c7f3a72492a9ef798870e0ca1f0c9399360f273ea95260 |
-| `dacl10k_v2_testchallenge.zip` | [[GigaMove]](https://gigamove.rwth-aachen.de/en/download/385b97978a94ec1fe6f57a359893799a)¹ [[AWS]](https://dacl10k.s3.eu-central-1.amazonaws.com/dacl10k-challenge/dacl10k_v2_testchallenge.zip) | 8fecd89e0c2316ac48f49867deabb0cf5629a68579eff2dd52e800f91147e8da |   
+| `dacl10k_v2_devphase.zip`      | <del>[[GigaMove]](https://gigamove.rwth-aachen.de/en/download/ae8278474b389aa9cc0ab6c406b7a466)</del>¹ [[AWS]](https://dacl10k.s3.eu-central-1.amazonaws.com/dacl10k-challenge/dacl10k_v2_devphase.zip) | dcbcd5fb82699076a2c7f3a72492a9ef798870e0ca1f0c9399360f273ea95260 |
+| `dacl10k_v2_testchallenge.zip` | <del>[[GigaMove]](https://gigamove.rwth-aachen.de/en/download/385b97978a94ec1fe6f57a359893799a)</del>¹ [[AWS]](https://dacl10k.s3.eu-central-1.amazonaws.com/dacl10k-challenge/dacl10k_v2_testchallenge.zip) | 8fecd89e0c2316ac48f49867deabb0cf5629a68579eff2dd52e800f91147e8da |   
 
 ¹ Hosted at [RWTH Aachen University](https://gigamove.rwth-aachen.de/).
 
@@ -119,7 +119,7 @@ Explanation:
 
 ### Labels/Classes
 
-Each polygone can have one of 19 classes. For detailed explanation please see [XXXX](https://arxiv.org/XXXX).
+Each polygone can have one of 19 classes. For detailed explanation please see Table 7 through 9 in the Appendix of [Flotzinger et al., 2023](https://arxiv.org/abs/2309.00460).
 
 * 13 damage classes: Crack, Alligator Crack (ACrack), Wetspot, Efflorescence, Rust, Rockpocket, Hollowareas, Cavity, Spalling, Graffiti, Weathering, Restformwork, Exposed Rebars (ExposedRebars), 
 * 6 object classes: Bearing, Expansion Joint (EJoint), Drainage, Protective Equipment (PEquipment), Joint Tape (JTape), Washouts/Concrete corrosion (WConccor)
