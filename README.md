@@ -58,7 +58,7 @@ The data should be in folder `path_to_data` and in the following format:
     ├── train (n=6.935)
     ├── validation (n=975)
     ├── testdev (n=1.012)
-    └── testchallenge (will be made available on 27 October 2023)
+    └── testchallenge (n=998)
 ```
 
 
