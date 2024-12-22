@@ -174,8 +174,8 @@ class Dacl10kDataset(Dataset):
         annot_filename = self.get_full_annotation_filename(image_name, self.annotation_path)
 
         # Image loading and transform
-        img = Image.open(image_filename)
-        img = np.array(img, dtype=np.uint8)
+        with Image.open(image_filename) as pil_img:
+            img = np.array(pil_img, dtype=np.uint8)
 
         # Get annotation details
         data = self._get_data(annot_filename)
