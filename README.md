@@ -386,3 +386,30 @@ Corresponding example in target folder (with new `imageWidth`, `imageHeight`, an
    'shape_type': 'polygon'}]}
 ```
 
+
+# Please cite
+
+[Data and baseline paper:](https://openaccess.thecvf.com/content/WACV2024/html/Flotzinger_dacl10k_Benchmark_for_Semantic_Bridge_Damage_Segmentation_WACV_2024_paper.html)
+
+```
+@inproceedings{flotzinger2024dacl10k,
+  title={dacl10k: benchmark for semantic bridge damage segmentation},
+  author={Flotzinger, Johannes and R{\"o}sch, Philipp J and Braml, Thomas},
+  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+  pages={8626--8635},
+  year={2024}
+}
+```
+
+[Workshop paper:](https://openaccess.thecvf.com/content/WACV2024W/DACL/html/Flotzinger_Dacl-Challenge_Semantic_Segmentation_During_Visual_Bridge_Inspections_WACVW_2024_paper.html)
+
+```
+@inproceedings{flotzinger2024dacl,
+  title={dacl-challenge: Semantic Segmentation during Visual Bridge Inspections},
+  author={Flotzinger, Johannes and R{\"o}sch, Philipp J and Benz, Christian and Ahmad, Muneer and Cankaya, Murat and Mayer, Helmut and Rodehorst, Volker and Oswald, Norbert and Braml, Thomas},
+  booktitle={2024 IEEE/CVF Winter Conference on Applications of Computer Vision Workshops (WACVW)},
+  pages={716--725},
+  year={2024},
+  organization={IEEE}
+}
+```
