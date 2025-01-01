@@ -24,6 +24,10 @@ python -m pip install git+https://github.com/phiyodr/dacl10k-toolkit
 * Requirements: See `requirements.txt`
 * Tested on Ubuntu 20.04 LTS with Python 3.10
 
+## :arrow_right: Evaluation
+
+Please use https://codalab.lisn.upsaclay.fr/competitions/16317 for evaluation.
+
 ## :arrow_right: Data 
 
 :page_with_curl: Data licence: [(CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)
